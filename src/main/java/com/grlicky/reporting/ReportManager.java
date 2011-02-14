@@ -73,7 +73,7 @@ public class ReportManager {
             in = getReportInputStreamInternally(report, engineId);
 
             int bytesRead;
-            byte[] buffer = new byte[configuration.getInputStreamBufferLegth()];
+            byte[] buffer = new byte[configuration.getInputStreamBufferLength()];
 
             while ((bytesRead = in.read(buffer)) != -1) {
                 out.write(buffer, 0, bytesRead);

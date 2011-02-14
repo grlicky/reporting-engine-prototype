@@ -1,21 +1,21 @@
 package com.grlicky.reporting;
 
-/** @author vgr */
+/** @author Vladimir Grlicky */
 public class ReportManagerConfiguration {
 
     private static final int DEFAULT_REPORT_INPUT_STREAM_BUFFER_LENGTH = 1024;
 
-    private int reportInputStreamBufferLegth;
+    private int reportInputStreamBufferLength;
 
     public ReportManagerConfiguration() {
-        reportInputStreamBufferLegth = DEFAULT_REPORT_INPUT_STREAM_BUFFER_LENGTH;
+        reportInputStreamBufferLength = DEFAULT_REPORT_INPUT_STREAM_BUFFER_LENGTH;
     }
 
-    public int getInputStreamBufferLegth() {
-        return reportInputStreamBufferLegth;
+    public int getInputStreamBufferLength() {
+        return reportInputStreamBufferLength;
     }
 
-    public void setReportInputStreamBufferLegth(int reportInputStreamBufferLegth) {
-        this.reportInputStreamBufferLegth = reportInputStreamBufferLegth;
+    public void setReportInputStreamBufferLength(int reportInputStreamBufferLength) {
+        this.reportInputStreamBufferLength = reportInputStreamBufferLength;
     }
 }
